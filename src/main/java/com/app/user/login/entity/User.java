@@ -57,12 +57,11 @@ public class User {
 		this.roles = roles;
 	}
 
-	public User(String userName, String lastName, String email, String password, String name, Collection<Rol> roles) {
+	public User(String userName, String lastName, String email, String password, Collection<Rol> roles) {
 		this.name = name;
 		this.lastName = lastName;
 		this.email = email;
 		this.password = password;
-		this.name = name;
 		this.roles = roles;
 	}
 
@@ -116,5 +115,7 @@ public class User {
 	public void setRoles(Collection<Rol> roles) {
 		this.roles = roles;
 	}
+	
+	
 
 }
